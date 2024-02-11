@@ -1,0 +1,12 @@
+.ant-table-wrapper{
+    flex: 1;
+}
+
+.quantityDetails{
+    display: flex;
+    gap: 10px;
+}
+
+.quantity-p{
+    margin-top: 15px;
+}

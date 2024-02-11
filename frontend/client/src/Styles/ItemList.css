@@ -1,0 +1,28 @@
+.price-addToCartBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-price-addToCartBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.shoppingCartOutlined{
+    border: none grey !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 3em;
+    background-color: rgb(38, 35, 61);
+    color: white;
+}
+
+.shoppingCartOutlined:hover{
+    transition: 0.2s ease;
+    background-color: rgb(71, 156, 54);
+}
+
+
+

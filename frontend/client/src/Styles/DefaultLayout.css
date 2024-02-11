@@ -1,0 +1,106 @@
+
+
+.ant-layout-sider-dark{
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+}
+.layout-content {
+    margin-left: 200px; /* Adjust margin to accommodate the width of the sidebar */
+    overflow-y: auto; /* Allow vertical scrolling for content */
+    
+  }
+  
+.content-div {
+    background: #fff; /* Set background color for content area */
+    padding: 15px;
+    overflow: auto !important;
+    height: 474px;
+    display: flex;
+  }
+.demo-logo-vertical-h3{
+    color: white;
+    margin-top: 15px;
+}
+
+.menu{
+    text-decoration: none;  
+}
+
+.cart-item{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(50, 207, 77);
+    position: absolute;
+    cursor: pointer;
+    right: 35px;
+    min-width: 10em;
+    height: 3em;
+    color: white;
+    padding: 15px;
+}
+
+.cart-items{
+    display: flex;
+    align-items: center !important;
+    gap: 4px;
+    min-width: 10px;
+}
+
+.cart-item:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgb(46, 179, 68);
+
+}
+.cart-item-p-num{
+    margin-top: 15px;
+    min-width: 15px; 
+    margin-left: 6px;
+    
+}
+.cart-item-p-word{
+    margin-top: 15px;
+    min-width: 15px; 
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+.menu-container {
+    position: relative;
+    height: 85.5vh;
+  }
+.logoutDiv {
+    position: absolute !important;
+    bottom: 3em !important;
+    left: 0;
+    width: 100%;
+  }
+.ant-menu-item{
+    padding-left: 12px !important;
+    border-radius: 10px;
+
+}
+.ant-layout-sider-dark{
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 86vh !important;
+}
+ul{
+    border-radius: 0 0 10px 10px;
+}
+.ant-layout{
+    height: 100vh;
+}
+
+.ant-layout-sider-children{
+    height: 100%;
+}
+
+

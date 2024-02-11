@@ -1,0 +1,27 @@
+.tableAndItem{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+.addItembtn{
+    display: flex;
+    justify-content: center;
+    width: 7em;
+    padding: 10px;
+    border: none;
+    background-color: rgb(42, 50, 71);
+    border-radius: 15px;
+    color: white;
+}
+
+.addItembtn:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    background-color: grey;
+}
+
+.addItemModal {
+    max-width: 400px; /* Adjust the maximum width of the modal */
+  }
+
