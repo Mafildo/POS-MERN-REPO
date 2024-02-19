@@ -6,17 +6,18 @@
     flex-direction: column;
 }
 .layout-content {
-    margin-left: 200px; /* Adjust margin to accommodate the width of the sidebar */
-    overflow-y: auto; /* Allow vertical scrolling for content */
-    
+    margin-left: 200px; 
+    overflow-y: auto; 
   }
   
 .content-div {
-    background: #fff; /* Set background color for content area */
+    background: #fff;
     padding: 15px;
     overflow: auto !important;
     height: 474px;
     display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 .demo-logo-vertical-h3{
     color: white;

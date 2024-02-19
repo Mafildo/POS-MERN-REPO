@@ -156,9 +156,8 @@ const ItemsPage = () => {
               </Form.Item>
               <Form.Item label="Category" name="category">
                 <Select>
-                  <Select.Option value="drinks">Drink</Select.Option>
-                  <Select.Option value="rice">Rice</Select.Option>
-                  <Select.Option value="noodle">Noodles</Select.Option>
+                  <Select.Option value="Drink">Drink</Select.Option>
+                  <Select.Option value="Rice">Rice</Select.Option>                  <Select.Option value="Noodle">Noodle</Select.Option>
                 </Select>
               </Form.Item>
               {/* <Form.Item

@@ -11,7 +11,6 @@ const getItemController = async(req, res) => {
     }
 };
 
-//add-items
 const addItemController = async (req, res) => {
     try {
         const newItem = new itemModel(req.body);
@@ -36,6 +35,7 @@ const addItemController = async (req, res) => {
 //             category: req.body.category,
 //             image: filename // Use the extracted file path or URL here
 //         });
+//         console.log(filename)
 
 //         // Save the new item to the database
 //         await newItem.save();

@@ -24,6 +24,10 @@ connectDb()
 
 //routes
 app.use('/api/items', require('./routes/itemRoutes'))
+app.use('/api/users', require('./routes/userRoute'))
+app.use('/api/bills', require('./routes/billsRoute'))
+
+
 
 const PORT = process.env.PORT || 8080;
 
